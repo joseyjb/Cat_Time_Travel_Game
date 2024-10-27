@@ -4,7 +4,7 @@ import pygame.examples
 import pygame, pygame_gui
 
 from game_logic import GameLogic
-from doodle_logic import DoodleLogic
+# from doodle_logic import DoodleLogic
 from asteroids_logic import AsteroidsLogic
 from comics_logic import ComicsLogic
 
@@ -12,7 +12,7 @@ from comics_logic import ComicsLogic
 
 GAME_MODE_CLASSES = [
     ComicsLogic,
-    DoodleLogic,
+#     DoodleLogic,
     AsteroidsLogic,
 ]
 
